@@ -1,5 +1,12 @@
-Python 2.7.10 (v2.7.10:15c95b7d81dc, May 23 2015, 09:33:12) 
-[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
-Type "copyright", "credits" or "license()" for more information.
->>> WARNING: The version of Tcl/Tk (8.5.9) in use may be unstable.
-Visit http://www.python.org/download/mac/tcltk/ for current information.
+
+
+# Divide Function
+
+def div(x,y):
+    print "DummyCal: ", x, " / ", y 
+    if y == 0 :
+        print "Error: denominator can not be 0!!!\n"
+        print "sean so smart"
+        return "0"
+    else:
+        return x/y

@@ -31,4 +31,9 @@ if __name__ == "__main__":
         else: print "Please enter a valid operator"
     
     # TO-DO
-    #output(result)
+
+def output(result):
+    print "The result is:" + result
+
+
+

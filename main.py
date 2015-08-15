@@ -17,6 +17,9 @@ def getUserInput():
     """)
     return [x,y,op]
 
+def output(result):
+    print "The result is:", result
+
 if __name__ == "__main__":
     print "Hello Dummy Cal!"
     
@@ -30,10 +33,10 @@ if __name__ == "__main__":
         elif op == 4: result = div(x, y)
         else: print "Please enter a valid operator"
     
-    # TO-DO
+    # output result.
+    output(result)
 
-def output(result):
-    print "The result is:" + result
+
 
 
 
